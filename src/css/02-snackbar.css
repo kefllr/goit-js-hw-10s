@@ -1,0 +1,96 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.label-delay {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 16px;
+  
+}
+
+legend {
+  display: flex;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.delay {
+  width: 360px;
+  height: 40px;   
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+.delay:hover {
+  border: 1px solid #000;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+
+.delay:focus
+{ 
+  outline: none;
+  border: 1px solid #4e75ff;
+}
+fieldset {
+  display: flex;
+  margin-bottom: 24px;
+  width: 360px;
+  height: 78px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding: 0;
+  justify-content: space-around;
+}
+fieldset:hover {
+  border: 1px solid #2E2F42;
+}
+.label-radio {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e2f42;
+
+}
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  margin: 0px;
+}
+
+button {
+  width: 360px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+}
+
+button:hover {
+  background-color: #6c8cff;
+}
